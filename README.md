@@ -1,211 +1,131 @@
-# Awesome-Event-Streaming-Platform
-
-## Top Event Streaming Platforms Ecosystem
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Real-Time Event Streaming, Kafka-Compatible Brokers, Pub/Sub, Durable Logs, Stream Processing & Multi-Cloud Streaming*
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Event Streaming**. These systems provide durable, scalable publish/subscribe messaging, event logs, and the foundation for real-time data pipelines, event-driven architectures, and stream processing.
-
-
-
-**Examples** include Confluent, Redpanda, StreamNative, Aiven, Apache Pulsar Cloud, Amazon MSK, Azure Event Hubs, Google Pub/Sub, WarpStream, Ably, Confluent Cloud, Redpanda Cloud, Aiven for Kafka, Pulsar Cloud, and Upstash Kafka (the category leaders).
-
-
-
-**Open-source emphasis**: Event streaming has one of the strongest open-source foundations in infrastructure. **Apache Kafka**, **Apache Pulsar**, **Redpanda** (Kafka-compatible), and **NATS JetStream** power most of the ecosystem. Commercial offerings mainly add managed operations, governance, connectors, and multi-cloud convenience. This section heavily expands the open options.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-- **[Confluent / Confluent Cloud](https://www.confluent.io/)**  
-
-  Full-scale event streaming platform built by the original creators of Apache Kafka—managed Kafka, Schema Registry, connectors, ksqlDB, stream processing, and enterprise governance.
-
-
-
-- **[Redpanda / Redpanda Cloud](https://www.redpanda.com/)**  
-
-  Kafka-compatible streaming platform written in C++—simpler operations (no ZooKeeper/JVM), high performance, and a fully managed cloud offering.
-
-
-
-- **[StreamNative](https://streamnative.io/)**  
-
-  Managed Apache Pulsar and streaming platform focused on Pulsar’s multi-tenancy, geo-replication, and unified messaging + streaming model.
-
-
-
-- **[Aiven / Aiven for Apache Kafka](https://aiven.io/)**  
-
-  Multi-cloud managed data platform offering Apache Kafka (and related services) with a free tier, connectors, and operational simplicity.
-
-
-
-- **[Apache Pulsar Cloud / managed Pulsar offerings](https://pulsar.apache.org/)**  
-
-  Hosted Pulsar services that provide the open Pulsar architecture as a managed cloud product.
-
-
-
-- **[Amazon MSK (Managed Streaming for Apache Kafka)](https://aws.amazon.com/msk/)**  
-
-  Fully managed Apache Kafka service on AWS with integration into the broader AWS data and analytics ecosystem.
-
-
-
-- **[Azure Event Hubs](https://azure.microsoft.com/)**  
-
-  Fully managed, real-time data ingestion service on Azure with Kafka protocol compatibility and deep Azure integration.
-
-
-
-- **[Google Pub/Sub](https://cloud.google.com/pubsub)**  
-
-  Global, managed messaging and event ingestion service on Google Cloud for high-throughput pub/sub workloads.
-
-
-
-- **[WarpStream](https://www.warpstream.com/)**  
-
-  Kafka-compatible streaming platform designed for cost-efficient, agent-based or BYOC-style deployments.
-
-
-
-- **[Ably, Upstash Kafka and additional managed streaming services](https://ably.com/)**  
-
-  Other managed event and Kafka-compatible services focused on developer experience, serverless, or specialized real-time use cases.
-
-
-
-## Open-Source GitHub Projects
-
-- **[Apache Kafka](https://github.com/apache/kafka)**  
-
-  The foundational open-source distributed event streaming platform—durable logs, high throughput, massive ecosystem of clients, connectors, and stream processors.
-
-
-
-- **[Apache Pulsar](https://github.com/apache/pulsar)**  
-
-  Open-source distributed messaging and streaming platform with separated compute/storage, multi-tenancy, geo-replication, and unified queue + stream semantics.
-
-
-
-- **[Redpanda](https://github.com/redpanda-data/redpanda)**  
-
-  Open-source, Kafka API-compatible streaming engine written in C++—designed for simplicity, performance, and lower operational overhead.
-
-
-
-- **[NATS / NATS JetStream](https://github.com/nats-io/nats-server)**  
-
-  Lightweight, high-performance open-source messaging system with JetStream for persistence, streaming, and at-least-once delivery.
-
-
-
-- **[Apache Flink](https://github.com/apache/flink)**  
-
-  Open-source stream processing framework commonly paired with Kafka or Pulsar for real-time analytics and stateful event processing.
-
-
-
-- **[Kafka Connect and open connector ecosystem](https://github.com/)**  
-
-  Open framework and community connectors for integrating databases, files, cloud services, and applications with Kafka.
-
-
-
-- **[Schema Registry open implementations](https://github.com/)**  
-
-  Open schema management options (Avro, Protobuf, JSON Schema) used with Kafka-compatible clusters.
-
-
-
-- **[ksqlDB / stream SQL open projects](https://github.com/)**  
-
-  Open approaches to SQL-based stream processing on top of Kafka.
-
-
-
-- **[RabbitMQ and classic messaging open brokers](https://github.com/rabbitmq/rabbitmq-server)**  
-
-  Mature open message broker still widely used for traditional messaging alongside or instead of pure event streaming.
-
-
-
-- **[Documentation and event-streaming open playbooks](https://kafka.apache.org/)**  
-
-  Official and community guides for operating Kafka, Pulsar, Redpanda, and NATS in production.
-
-
-
-### Additional Strong Open-Source Options
-
-- Self-hosting **Apache Kafka** or **Redpanda** when you want full control and Kafka ecosystem compatibility.
-
-- Choosing **Apache Pulsar** for multi-tenant, geo-replicated, or unified messaging + streaming architectures.
-
-- Using **NATS JetStream** for lightweight, cloud-native messaging and streaming with lower operational complexity.
-
-- Accepting that fully managed operations, enterprise governance, large connector catalogs, multi-cloud SLAs, and 24/7 support still drive many teams to Confluent Cloud, Redpanda Cloud, Aiven, MSK, Event Hubs, Pub/Sub, and similar services.
-
-- Focusing open-source efforts on cost control, data ownership, and deep customization of the streaming backbone.
-
-
-
-**Frameworks for building custom systems**: Deploy Kafka or Redpanda (or Pulsar/NATS) → define topics and schemas → produce/consume with official clients → add Kafka Connect or custom connectors → process with Flink or ksql-style tools → observe with open metrics and lag monitoring. Suitable for platform engineering teams. Many organizations still prefer managed streaming platforms for operational simplicity at scale.
-
-
-
-## How to Contribute
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Event streaming systems are critical data infrastructure. Misconfiguration can cause data loss, duplication, or outages. Open-source brokers require skilled operations, monitoring, and capacity planning. This list is not operational or architectural advice.
-
-
+# ⚡ Awesome Event Streaming Platforms 🚀
+
+<p rain-align="center">
+  <img src="assets/banner.svg" alt="Awesome Event Streaming Platforms Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Event-Streaming-Platform"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Event-Streaming-Platform?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Event-Streaming-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Event-Streaming-Platform?style=flat-square&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Event-Streaming-Platform/stargazers"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Event-Streaming-Platform?style=flat-square" alt="Last Commit"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-**Made for data platform engineers, event-driven architects, and open-source streaming advocates.**
+## 🌟 Ecosystem Overview & Industry Landscape
 
-Let's keep events flowing, durable, and as open as practical.
+Welcome to the ultimate curated list of **Event Streaming Platforms**, **Kafka-compatible brokers**, **Pub/Sub engines**, and **real-time stream processing tools**. Designed for data platform engineers, enterprise software architects, and event-driven systems developers.
+
+> 📈 **Market Size & Industry Dynamics:**  
+> The global event streaming and real-time data infrastructure market is estimated at **~$12.5 Billion (2026)** and is projected to exceed **$28 Billion by 2030** (CAGR ~22%). The market is **moderately fragmented**: hyper-scalers (AWS MSK, Google Cloud Pub/Sub, Azure Event Hubs) and pioneer leaders (Confluent) hold major enterprise market shares, while high-performance next-gen engines (Redpanda, WarpStream, Apache Pulsar/StreamNative) rapidly capture modern cloud-native workloads.
+
+---
+
+## 📋 Table of Contents
+
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [🔥 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Community](#-support--community)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## ☁️ SaaS & Hosted Platforms
+
+Below is a comparison of top managed event streaming cloud platforms sorted by **Company Size / Valuation / Revenue** (descending):
+
+| SaaS Product | Size / Valuation / Revenue | Starting Pricing Tier | Free Tier & Free Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Google Pub/Sub](https://cloud.google.com/pubsub)** | **~$2.0 Trillion** (Parent: Alphabet Inc.) | $40 per TB of data volume ingested/delivered | **Free Forever:** 10 GB of message ingestion per month | Global, fully managed serverless pub/sub messaging engine with automatic scaling and zero cluster management. |
+| **[Amazon MSK (AWS)](https://aws.amazon.com/msk/)** | **~$2.0 Trillion** (Parent: Amazon Inc.) | ~$0.021 per broker-hour + storage charges | **Free Trial:** 750 broker-hours/month of MSK Serverless for 2 months | Fully managed Apache Kafka engine natively integrated with AWS IAM, CloudWatch, and analytics tools. |
+| **[Azure Event Hubs](https://azure.microsoft.com/)** | **~$3.0 Trillion** (Parent: Microsoft Corp.) | $0.015 per hour per Throughput Unit | **Free Trial:** $200 Azure cloud credit valid for 30 days | High-throughput data ingestion service on Azure offering native Apache Kafka protocol compatibility. |
+| **[Confluent Cloud](https://www.confluent.io/)** | **~$6.5 Billion** (Public: NASDAQ: CFLT) | $0.00/hr base + pay-as-you-go throughput | **Free Trial:** $400 free credit valid for 30 days | Enterprise-grade managed Apache Kafka platform featuring Schema Registry, 120+ connectors, and Flink stream processing. |
+| **[Aiven for Apache Kafka](https://aiven.io/)** | **~$3.0 Billion** (Series C valuation) | $0.07/hr (~$50/month) for Startup-4 plan | **Free Trial:** $300 credit valid for 30 days | Multi-cloud managed data infrastructure offering open-source Apache Kafka, Kafka Connect, and MirrorMaker 2. |
+| **[Redpanda Cloud](https://www.redpanda.com/)** | **~$500 Million** (Series C valuation) | $0.08/hr for Serverless tier | **Free Trial:** $300 credit valid for 14 days | C++ based Kafka-compatible streaming engine delivering zero JVM overhead, low latency, and simplified BYOC deployments. |
+| **[StreamNative](https://streamnative.io/)** | **~$150 Million** (Series A valuation) | $0.10/hr for Serverless Pulsar instances | **Free Trial:** $300 credit valid for 30 days | Cloud-native event streaming platform powered by Apache Pulsar with multi-tenancy and tier storage. |
+| **[Ably Realtime](https://ably.com/)** | **~$120 Million** (Series B valuation) | $29/month for Pay-As-You-Go plan | **Free Forever:** 6 Million messages & 200 concurrent connections / month | Serverless pub/sub messaging platform engineered for edge delivery, real-time web applications, and webhooks. |
+| **[WarpStream](https://www.warpstream.com/)** | **~$50 Million** (Venture-backed) | $0.01 per GB written to object storage | **Free Forever:** 1 TB of data ingested per month | BYOC Kafka-compatible broker that streams directly to S3/cloud object storage without disk state management. |
+| **[Upstash Kafka](https://upstash.com/)** | **~$30 Million** (Series A valuation) | $0.20 per 100K messages | **Free Forever:** 10,000 messages / day (max 256MB bandwidth) | Serverless Kafka database with per-request pricing, REST API access, and instant edge deployment. |
+
+---
+
+## 🔥 Open-Source GitHub Projects
+
+The leading open-source event streaming engines and frameworks, sorted by **GitHub Star Count** (descending):
+
+- **[Apache Kafka](https://github.com/apache/kafka)** [<img src="https://img.shields.io/github/stars/apache/kafka?style=social&color=white" alt="Kafka Stars"/>](https://github.com/apache/kafka/stargazers)  
+  ⚡ The industry standard distributed event streaming platform for high-throughput, fault-tolerant log storage and pub/sub pipelines.
+
+- **[Apache Flink](https://github.com/apache/flink)** [<img src="https://img.shields.io/github/stars/apache/flink?style=social&color=white" alt="Flink Stars"/>](https://github.com/apache/flink/stargazers)  
+  ⚡ High-performance stream processing engine providing stateful computations over data streams with exact-once semantics.
+
+- **[RabbitMQ](https://github.com/rabbitmq/rabbitmq-server)** [<img src="https://img.shields.io/github/stars/rabbitmq/rabbitmq-server?style=social&color=white" alt="RabbitMQ Stars"/>](https://github.com/rabbitmq/rabbitmq-server/stargazers)  
+  ⚡ Reliable and flexible message broker supporting AMQP, MQTT, and STOMP protocols for traditional & real-time messaging.
+
+- **[NATS Server](https://github.com/nats-io/nats-server)** [<img src="https://img.shields.io/github/stars/nats-io/nats-server?style=social&color=white" alt="NATS Stars"/>](https://github.com/nats-io/nats-server/stargazers)  
+  ⚡ Cloud-native, ultra-lightweight messaging system equipped with JetStream for durable streaming and key-value storage.
+
+- **[Apache Pulsar](https://github.com/apache/pulsar)** [<img src="https://img.shields.io/github/stars/apache/pulsar?style=social&color=white" alt="Pulsar Stars"/>](https://github.com/apache/pulsar/stargazers)  
+  ⚡ Next-gen distributed pub/sub messaging system with separated compute and storage (BookKeeper) for multi-tenancy.
+
+- **[Redpanda](https://github.com/redpanda-data/redpanda)** [<img src="https://img.shields.io/github/stars/redpanda-data/redpanda?style=social&color=white" alt="Redpanda Stars"/>](https://github.com/redpanda-data/redpanda/stargazers)  
+  ⚡ C++ Kafka API-compatible event streaming platform engineered for 10x lower tail latencies and no ZooKeeper dependency.
+
+- **[Bytewax](https://github.com/bytewax/bytewax)** [<img src="https://img.shields.io/github/stars/bytewax/bytewax?style=social&color=white" alt="Bytewax Stars"/>](https://github.com/bytewax/bytewax/stargazers)  
+  ⚡ Python-centric stream processing framework powered by a Timely Dataflow Rust execution engine.
+
+- **[Memphis.dev](https://github.com/memphisdev/memphis)** [<img src="https://img.shields.io/github/stars/memphisdev/memphis?style=social&color=white" alt="Memphis Stars"/>](https://github.com/memphisdev/memphis/stargazers)  
+  ⚡ Developer-first alternative to complex message brokers with embedded data governance and schema enforcement.
+
+- **[Fluvio](https://github.com/infinyon/fluvio)** [<img src="https://img.shields.io/github/stars/infinyon/fluvio?style=social&color=white" alt="Fluvio Stars"/>](https://github.com/infinyon/fluvio/stargazers)  
+  ⚡ Lean real-time data streaming engine written in Rust with inline WebAssembly (Wasm) stream transformations.
+
+- **[Apacke Spark Streaming](https://github.com/apache/spark)** [<img src="https://img.shields.io/github/stars/apache/spark?style=social&color=white" alt="Spark Stars"/>](https://github.com/apache/spark/stargazers)  
+  ⚡ Scalable micro-batch and continuous stream processing engine integrating seamlessly with Spark SQL and MLlib.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these simple guidelines:
+
+1. 🍴 **Fork** this repository.
+2. 📝 Add or update entries in `README.md` keeping formatting consistent.
+3. 🔗 Ensure all SaaS & Open-Source project links point directly to official resources.
+4. 🚀 Submit a **Pull Request** with a detailed summary of additions.
+
+---
+
+## 💖 Support & Community
+
+If you find this repository helpful, please consider supporting the project:
+
+- 🌟 **Star** this repository on GitHub to show your appreciation!
+- 🔀 **Fork** it to keep your own curated reference.
+- 📢 **Share** it with fellow data engineers and software architects.
+- ☕ **Sponsor:** Support open-source curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for being part of the open-source community! ❤️
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Event-Streaming-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Event-Streaming-Platform&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated list** for informational and educational purposes.
+- System pricing, limits, and market valuations change over time; refer to official platforms for live SLAs and enterprise pricing.
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for Data Engineers &amp; Streaming Architects worldwide.</b>
+</p>
