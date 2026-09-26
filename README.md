@@ -55,7 +55,7 @@ Below is a comparison of top managed event streaming cloud platforms sorted by *
 
 ## 🔥 Open-Source GitHub Projects
 
-The leading open-source event streaming engines and frameworks, sorted by **GitHub Stars_Count** (descending):
+The leading open-source event streaming engines and frameworks, sorted by **GitHub_Stars_Count** (descending):
 
 - **[Apache Kafka](https://github.com/apache/kafka)** [<img src="https://img.shields.io/github/stars/apache/kafka?style=social&color=white" alt="Kafka Stars"/>](https://github.com/apache/kafka/stargazers)  
   ⚡ The industry standard distributed event streaming platform for high-throughput, fault-tolerant log storage and pub/sub pipelines.
