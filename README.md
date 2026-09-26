@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Event-Streaming-Platform"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Event-Streaming-Platform?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Event-Streaming-Platform"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Event-Streaming-Platform?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Event-Streaming-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Event-Streaming-Platform?style=flat-square&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Event-Streaming-Platform/stargazers"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Event-Streaming-Platform?style=flat-square" alt="Last Commit"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -55,7 +55,7 @@ Below is a comparison of top managed event streaming cloud platforms sorted by *
 
 ## 🔥 Open-Source GitHub Projects
 
-The leading open-source event streaming engines and frameworks, sorted by **GitHub Star Count** (descending):
+The leading open-source event streaming engines and frameworks, sorted by **GitHub Stars_Count** (descending):
 
 - **[Apache Kafka](https://github.com/apache/kafka)** [<img src="https://img.shields.io/github/stars/apache/kafka?style=social&color=white" alt="Kafka Stars"/>](https://github.com/apache/kafka/stargazers)  
   ⚡ The industry standard distributed event streaming platform for high-throughput, fault-tolerant log storage and pub/sub pipelines.
